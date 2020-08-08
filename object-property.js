@@ -11,4 +11,5 @@ const student = [{id: 10, name: "linus"}, {id: 14, name: "max"}, {id: 16, name: 
 const result = student.map(s => s.name);
 const bigger = student.filter(s => s.id > 15);
 const instantBigger = student.find(s => s.id> 15);
-console.log(instantBigger);
+const eachStudent = student.forEach(s => console.log(s.name));
+console.log(eachStudent);
